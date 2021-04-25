@@ -1,0 +1,142 @@
+/*1. Universal*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+#header{
+	width=100%;
+	background-color:white;
+	padding: 9px 30px 15px 30px;
+}
+a:link {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: yellow;
+}
+
+/*2. Home*/
+
+#background{
+	background-image: url(Bokeh.jpg);
+	width: 100%;
+	height: 500px;
+	opacity:0.95;
+	transition: transform .4s;
+}
+
+#background:hover{
+	transform: scale(1.03);
+}
+
+#text{
+	text-shadow: 1px 1px 5px Black;
+	width: 500px;
+	color: White;
+	font-size: 80px;
+	font-family: Bahnschrift;
+	position: relative;
+	top:60px;
+	left:100px;
+}
+#content1{
+	text-align:center;
+}
+	
+#note{
+	position:relative; 
+	width: 100%; 
+	height:200px;
+	text-align:center; 
+	font-size:larger; 
+}
+
+#content2{text-align:center;}
+
+#row1{background-color:black; color:white; width:100%;  transition: background-color 0.2s, transform.2s;}
+#row1:hover{background-color:#00470f; transform: scale(1.03);}
+
+#row2{background-color:#f9f5ec; color:black; width:100%; transition: background-color 0.2s, color 0.2s, transform.2s; }
+#row2:hover{background-color:#00470f; color:white; transform: scale(1.03);}
+
+#footer{background-color:black; color:white; width:100%; color:white; text-align:center;}
+	
+
+/*3. Services*/
+
+#Heading{
+	color: white;
+	background-color: black;
+}
+
+#Solutions{
+	width:100%;
+	height: 520px;
+	text-align:center;
+}
+
+#sol1{
+	width:33%;
+	text-align:center;
+	display:inline-block;
+	transition:transform.2s;
+	font-size:larger;
+	padding-top: 20px;
+}
+#sol1:hover{transform: scale(1.03);}
+
+#sol2{width:33%;
+	text-align:center;
+	display:inline-block;
+	transition:transform.2s;
+	font-size:larger;
+	padding-top: 20px;
+}
+#sol2:hover{transform: scale(1.03);}
+
+#sol3{width:33%;
+	text-align:center;
+	display:inline-block;
+	transition:transform.2s;
+	font-size:larger;
+	padding-top: 20px;
+}
+#sol3:hover{transform: scale(1.03);}
+
+#art1, #art3{
+	padding:10px 0 20px 0;
+	background-color:rgb(153, 255, 153);
+}
+
+#art2{
+	padding:10px 0 20px 0;
+}
+/*4. Gallery*/
+#blank{
+	width:100%;
+	text-align:center;
+}
+/*Contacts*/
+#row{
+	width:100%
+	height:300px;
+	padding:20px;
+	margin:30px;
+}
+#cont{
+	width:300px;
+	height:100px;
+	margin:10px;
+	display:inline-block;
+}
+#Solutions2{
+	width:100%;
+	height: 700px;
+	text-align:center;
+}
