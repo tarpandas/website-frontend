@@ -1,5 +1,5 @@
 # website-frontend
-The repository contains a a basic static website, which is built using HTML, CSS and JavaScript.
+The repository contains a static website, which is built using HTML, CSS and JavaScript.
 
 Test how it looks: https://tarpandas.github.io/website-frontend/
 
