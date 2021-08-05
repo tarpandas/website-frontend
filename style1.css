@@ -140,3 +140,9 @@ a:active {
 	height: 700px;
 	text-align:center;
 }
+@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+  html{
+    width:100%;
+  }
+}
